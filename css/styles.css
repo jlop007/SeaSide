@@ -1,7 +1,30 @@
 /* Import font */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 /* Custom properties */
+:root{
+    --light-clr: #fff;
+    --dark-clr: #504f4f;
+    --accent-clr: #00cc90;
 
+    --font-size-xsm: 1.2rem;
+    --font-size-sm: 1.6rem;
+    --font-size-md: 2.4rem;
+    --font-size-lg: 3.6rem;
+    --font-family: 'Poppins', sans-serif;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    
+    --margin-sm: 1rem;
+    --margin-md: 2rem;
+    --margin-lg: 3rem;
+
+    --section-spacing: 8rem;
+
+    --gap-sm: 1.5rem;
+    --gap-md: 2rem;
+    --gap-lg: 4rem;
+}
 /* Base styles */
 
 /* Reusable */
